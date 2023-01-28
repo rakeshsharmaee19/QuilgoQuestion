@@ -1,4 +1,4 @@
-Python program that finds the longest common substring between two strings
+#Python program that finds the longest common substring between two strings
 def longestCommanSubString(x,y,m,n):
     longestComman = [[0 for k in range(n+1)] for l in range(m+1)]
     result =0
